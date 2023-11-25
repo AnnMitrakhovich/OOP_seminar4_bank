@@ -1,5 +1,5 @@
 package Bank_collections;
-// счеты будут разные
+// счета будут разные
 public abstract class Account<T extends PersonalData> {
     private T data;
     private double amount;
@@ -33,3 +33,5 @@ public abstract class Account<T extends PersonalData> {
                 '}';
     }
 }
+
+

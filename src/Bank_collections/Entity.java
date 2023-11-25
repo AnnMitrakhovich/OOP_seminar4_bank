@@ -22,3 +22,4 @@ public class Entity implements PersonalData{
         return String.format("Организация %s %s", name, inn);
     }
 }
+

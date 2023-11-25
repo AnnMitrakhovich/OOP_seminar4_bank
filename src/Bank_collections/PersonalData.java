@@ -3,3 +3,4 @@ package Bank_collections;
 public interface PersonalData {
     String getINN();
 }
+

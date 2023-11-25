@@ -25,3 +25,4 @@ public class Person implements PersonalData{
         return String.format("ФИО %s %s", name, inn);
     }
 }
+

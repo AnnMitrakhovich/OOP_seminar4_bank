@@ -10,5 +10,7 @@ public class Program {
         AccountDebit<Entity> account2 = new AccountDebit<>(organization1, 3900);
         var tr1 = new Transaction<>(account2, account1, 500);
         tr1.execute();
+        var tr2 = new Transaction<>(account1, account2, 50);
+        tr2.execute();
     }
 }
